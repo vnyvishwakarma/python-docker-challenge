@@ -7,13 +7,13 @@ A python application that receive a number and retrun a files with X lines (Shou
 
 Docker should be installed 
 
-#### Git clone
+### Git clone
 
 ```bash
   git clone https://github.com/vnyvishwakarma/python-docker-challenge.git
 ```
 
-#### Build your image locally
+### Build your image locally
 
 ```bash
   git clone https://github.com/vnyvishwakarma/python-docker-challenge.git
@@ -28,4 +28,12 @@ Docker should be installed
 
 ```
 > Note:  `-v mounting local directory (~/Desktop/data1) to /tmp` is required  `-n <receive a number and retrun a file with X lines` is required 
+
+### Reading output
+
+```bash
+  
+  cat ~/Desktop/data1/file_with_lines.txt
+
+```
 
