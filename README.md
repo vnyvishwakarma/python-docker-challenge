@@ -27,5 +27,5 @@ Docker should be installed
   docker run -v ~/Desktop/data1:/tmp localapp -n 10
 
 ```
-> Note:  `-v mounting local directory to /tmp` is required  `-n <receive a number and retrun a file with X lines` is required 
+> Note:  `-v mounting local directory (~/Desktop/data1) to /tmp` is required  `-n <receive a number and retrun a file with X lines` is required 
 
