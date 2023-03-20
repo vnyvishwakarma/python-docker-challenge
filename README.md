@@ -3,6 +3,10 @@
 
 A python application that receive a number and retrun a files with X lines (Should be download from Github)
 
+## Prerequisites
+
+Docker should be installed 
+
 #### Git clone
 
 ```bash
