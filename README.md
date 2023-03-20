@@ -8,7 +8,7 @@ A python application that receive a number and retrun a files with X lines (Shou
 Docker should be installed 
 
 
-## Run application on local machine
+## Run application on local machine using Docker
 
 
 ### Git clone
@@ -28,7 +28,7 @@ Docker should be installed
 
 ```bash
   
-  docker run -v ~/Desktop/data1:/tmp localapp -n 10
+  docker run -v ~/Desktop/data1:/tmp localapp -n 3
 
 ```
 > Note:  `-v mounting local directory (~/Desktop/data1) to /tmp` is required  `-n <receive a number and retrun a file with X lines` is required 
@@ -38,6 +38,7 @@ Docker should be installed
 ```bash
   
   cat ~/Desktop/data1/file_with_lines.txt
+
 
 ```
 
