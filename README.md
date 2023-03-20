@@ -13,15 +13,19 @@ Docker should be installed
   git clone https://github.com/vnyvishwakarma/python-docker-challenge.git
 ```
 
-#### Build your image
+#### Build your image locally
 
 ```bash
-  docker build -t vnyhcl/python-docker-challenge:v1 .
+  git clone https://github.com/vnyvishwakarma/python-docker-challenge.git
+  docker build -t localapp .
 ```
 
-### Runing Docker image
+### Runing Docker image 
 
 ```bash
-  docker run -v ~/Desktop/data1:/tmp vnyhcl/python-docker-challenge:v1 -n 2
+  
+  docker run -v ~/Desktop/data1:/tmp localapp -n 10
+
 ```
+> Note:  `-v mounting local directory to /tmp` is required  `-n <receive a number and retrun a file with X lines` is required 
 
