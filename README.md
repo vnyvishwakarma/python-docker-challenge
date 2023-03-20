@@ -7,6 +7,10 @@ A python application that receive a number and retrun a files with X lines (Shou
 
 Docker should be installed 
 
+
+## Run application on local machine
+
+
 ### Git clone
 
 ```bash
@@ -37,3 +41,4 @@ Docker should be installed
 
 ```
 
+## Run application from docker hub
